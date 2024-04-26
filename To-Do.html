@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="todoPage">
+    <img src="images/Screenshot_from_2024-04-24_22-10-46-removebg-preview.png" class="Todologos">
+    <div class="navLinks">
+    <h3><a href="index.html#Mentor's Profile" class="nav">Mentor'sProfile</a></h3>
+    <h3><a href="To-Do.html" class="nav">ToDoList</a></h3>
+    <h3><a href="achievements.html" class="nav">Achievements</a></h3>
+    <h3><a href="goals.html" class="nav">GoalSetting</a></h3>
+    </div>
+        </div>
+    <div class="toDo">
+    <h1 class="toDoTitle">To-Do List</h1>
+    <input type="text" id="addTask" placeholder="Enter what you want to do.....">
+    <a href="https://docs.google.com/document/d/1LvtHJqBT7bQJfP5NjD-QzYwJ4SjT3kVpV31TuirMNL8/edit?usp=sharing">Born a crime summary</a>
+    <button id="addButton">Add Task</button>
+    <ul id="ToDo"></ul>
+    </div>
+    <script>
+      const todoList = document.getElementById('ToDo');
+      const newTaskInput = document.getElementById('addTask');
+      const addTaskButton = document.getElementById('addButton');
+      const tasks = []; 
+      addTaskButton.addEventListener('click', function() {
+        const task = newTaskInput.value.trim(); 
+        if (task) { 
+          tasks.push(task);
+          newTaskInput.value = ''; 
+          renderTodoList();
+        }
+      });
+      function renderTodoList() {
+        todoList.innerHTML = ''; 
+        tasks.forEach((task, index) => {
+          const listItem = document.createElement('li');
+          listItem.innerText = task;
+          const deleteButton = document.createElement('button');
+          deleteButton.innerText = 'Delete';
+          deleteButton.addEventListener('click', function() {
+            tasks.splice(index, 1); 
+            renderTodoList();
+          });
+          listItem.appendChild(deleteButton);
+          todoList.appendChild(listItem);
+        });
+      }
+    </script>
+  </body>
+  </html>
+
