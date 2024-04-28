@@ -92,7 +92,11 @@
         border-radius: 20px;
         border: 1px solid purple;
     }
-   
+    .nav{
+        text-decoration: none;
+        color: rgb(5, 65, 65);
+        font-size: 1rem;
+    }
     .achievementsPage{
         background-size: 70%;
         position: relative;

@@ -122,6 +122,10 @@
         .programeName{
             margin-left: 10%;
             }
+            .nav{
+                text-decoration: none;
+                color: rgb(5, 65, 65);
+            }
       .mentorsProfile{
                 color:rgb(3, 55, 55);
                 margin-left: 30%;
@@ -156,4 +160,9 @@
             .footer{
                 margin-top: 5%;
             }  
+            .nav{
+                text-decoration: none;
+                color: rgb(5, 65, 65);
+                font-size: 1rem;
+            }
     }
