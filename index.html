@@ -9,50 +9,53 @@
 <body>
     <div>
     <div class="heroContainer">
-        <div class="form">
+        <form class="form" action="./home.html">
         <div class="signUp">
-            <img src="images/Screenshot_from_2024-04-24_22-10-46-removebg-preview.png" class="logos" >
-            <button type="submit" class="SignUpButton"><a href="login.html">LogIn</a>
-            <button type="submit" class="SignUpButton"><a href="home.html">SignUp</a>
+            <img src="images/Screenshot_from_2024-04-24_22-10-46-removebg-preview.png" class="logo" >
+                <h1 class="SignUpTitle">Sign UP</h1>
+                     
         </div>
         <div class="SignUpform">
             <div>
-    <label for="name" class="SignUpLabels">Full Name</label>
-</br>
-</br>
-<input name="name" required placeholder="Input Full Name"  type="text" class="signUpInput"/>
+    <label for="name" class="SignUpLabels" action="/action_page.php" onsubmit="return validateForm()" method="post" type="text">Full Name</label>
+<br>
+<br>
+<input name="fname"  placeholder="Input Full Name"  type="text" class="signUpInput" required/>
 </div>
-    </br>
-</br>
+    <br>
+<br>
 <div>
 <label for="email" class="SignUpLabels">Email</label>
-</br>
-</br>
-<input type="text" name="email" placeholder="Input email" class="signUpInput" required />
+<br>
+<br>
+<input type="text" name="email" placeholder="Input email" class="signUpInput" required/>
 </div>
-</br>
-</br>
+<br>
+<br>
 <div>
 <label for="password" class="SignUpLabels" >Password</label>
-</br>
-</br>
-<input type="text" password="password" placeholder="Input password" class="signUpInput" required />
+<br>
+<br>
+<input type="text" password="password" placeholder="Input password" class="signUpInput" required/>
 </div>
-</br>
-</br>
+<br>
+<br>
 <div>
 <label for="password" class="SignUpLabels" >User Name</label>
-</br>
-</br>
-<input type="text" password="password" placeholder="Input User Name" class="signUpInput" required  />
+<br>
+<br>
+<input type="text" password="password" placeholder="Input User Name" class="signUpInput" required/>
 </div>
-</br>
-</br>
-</br>
+<button type="submit" class="SignUpButton" value="submit"><a href="home.html">SignUp</a></button>
+<div class="footer">
+<p class="account">Already have an account?</p>
+<h3 class="logInButton" value="submit"><a href="login.html">LogIn</a></h3>
+</div>
+
         </div>
 
 </div>
-</div>
+</form>
     </div>
     <script src="index.js"></script>
 </body>

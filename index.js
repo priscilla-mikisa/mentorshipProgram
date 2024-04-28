@@ -5,17 +5,13 @@ function getText() {
 
 function setText() {
     var text = document.getElementsByClassName("classAchievements").value = 'Congs';
+    alert(text)
 
 }
-const form = document.querySelector('form');
-  const input = document.querySelector('input');
-
-  form.addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    if (input.value.trim() === '') {
-      alert('Please fill out the input field!');
-    } else {
-      form.submit();
-    }
-  });
+function validateForm() {
+  let x = document.forms["name"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}

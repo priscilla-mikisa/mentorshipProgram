@@ -1,0 +1,159 @@
+.heroContainer{
+    width:50%;
+    height: auto;
+    color: black;
+    background-attachment: fixed;
+    margin-left:15%;
+}
+.homePage{
+    display: flex;
+    gap:5%;
+    border-bottom: 3px solid purple;
+    border-radius: 20px;
+}
+.logos{
+    width: 5%;
+    height: 5%;
+    margin-top: 0.5%;
+    margin-left: 15%;
+}
+.navLinks{
+    display: flex;
+    gap:25%;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+.nav{
+    text-decoration: none;
+    color: rgb(5, 65, 65);
+}
+.landingPage{
+    border: 3px solid purple;
+    border-radius: 20px;
+    opacity: 100;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:rgba(243, 201, 201, 0.5) ;
+    background-size: 50%;
+}
+.programeName{
+    margin-left: 40%;
+    }
+    .mentorsProfile{
+        color:rgb(3, 55, 55);
+        margin-left: 60%;
+        margin-top: 10%;
+    }
+    .MentorsProfile{
+     display: flex;
+     gap:10%;
+    margin-left: 5%;
+    }
+    .description{
+        display: flex;
+        gap:5%;
+        margin-top: 4%;
+        font-size: 1.5rem;
+    }
+    .quote{
+        margin:5% 0 5% 30%;
+        font-size: 1.2rem;
+    }
+    .writer{
+        margin:0 0 5% 55%;
+        font-size: 1.2rem;
+    }
+    .footer{
+        margin-top: 5%;
+    }    
+    .Title{
+        color:rgb(3, 55, 55);
+        margin-left: 2%;
+    }
+    .company{
+        color:rgb(3, 55, 55);
+        margin-left: 6%;
+    }
+    .about{
+        color:rgb(3, 55, 55);
+        margin-right: 25%;
+    }
+    .profilePicture{
+        width:20rem;
+    }
+    @media screen and (min-width:280px) and (max-width:1000px){
+        .heroContainer{
+            width:25%;
+            height: auto;
+            color: black;
+            background-attachment: fixed;
+            margin-left:2%;
+        } 
+        .homePage{
+            display: flex;
+            flex-direction: column;
+            gap:2%;
+            border-bottom: 3px solid purple;
+            border-radius: 20px;
+        }
+        .logos{
+            width: 15%;
+            height: 2%;
+            margin-top: 2%;
+            margin-left: 5%;
+        }
+        .navLinks{
+            display: flex;
+            flex-direction: column;
+            gap:5%;
+            margin-left: 9%;
+            font-size: 1rem;
+        }
+        .nav{
+            text-decoration: none;
+            color: rgb(5, 65, 65);
+        }
+        .landingPage{
+            border: 3px solid purple;
+            border-radius: 10px;
+            opacity: 100;
+            background-color:rgba(243, 201, 201, 0.5) ;
+        }
+        .programeName{
+            margin-left: 10%;
+            }
+      .mentorsProfile{
+                color:rgb(3, 55, 55);
+                margin-left: 30%;
+                margin-top: 10%;
+            }
+            .MentorsProfile{
+                display: flex;
+                gap:5%;
+                flex-direction: column;
+               margin-left: 5%;
+               }
+               .profilePicture{
+                width:10rem;
+                padding-left: 10%;
+            }
+            .description{
+                display: flex;
+                gap:5%;
+                margin-top: 4%;
+                font-size: 0.9rem;
+                margin-left: 5%;
+            }
+            .quote{
+                font-size: 1rem;
+                display:none;
+            }
+            .writer{
+                margin:0 0 5% 55%;
+                font-size: 1.2rem;
+                display: none;
+            }
+            .footer{
+                margin-top: 5%;
+            }  
+    }

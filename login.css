@@ -1,0 +1,163 @@
+.form1{
+    border: 3px solid purple;
+    border-radius: 20px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+    background-color:rgba(243, 201, 201, 0.5) ;
+    background-size: 50%;
+    margin-top: 8%;
+}
+.signUp{
+    display: flex;
+    gap:15%;
+    margin-left: 10%;
+}
+.logo{
+    width: 20%;
+    height: 5%;
+    margin-top: 3%;
+    margin-left: 5%;
+
+}
+.SignUpButton{
+    background-color: beige;
+    width: 20%;
+    text-decoration: none;
+    height: 20%;
+    margin-top:2% ;
+    padding: 2%;
+    margin-left: 40%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    text-decoration: none;
+   }
+   .SignUpform{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.LogInTitle{
+ margin-top: 8%;
+ margin-left: 25%;
+ color: rgb(8, 66, 66);
+}
+.SignUpLabels{
+    color: rgb(8, 66, 66);
+    font-size: 2rem;
+}
+.signUpInput{
+    padding: 10px;
+    color: rgb(8, 66, 66);
+    width: 74%;
+    border: 2px solid purple;
+    font-size: 1rem;
+}
+.heroContainer{
+    width:50%;
+    height: auto;
+    color: black;
+    background-attachment: fixed;
+    margin-left:15%;
+}
+.no-account{
+    display: flex;
+}
+@media screen and (min-width:280px) and (max-width:400px){
+    .heroContainer{
+        width:75%;
+        background-attachment: fixed;
+        height: auto;
+        color: black;
+        padding-left: 0;
+    }  
+    .form1{
+        border-radius: 20px;
+        margin: 0; 
+        margin-right: 0;
+
+    }
+    .signUp{
+        display: flex;
+        gap:10%;
+        margin-left: 5%;
+    }
+    .logo{
+        width: 20%;
+        height: 5%;
+        padding-top: 5%;
+        margin-left: 2%;
+        opacity: 100%;
+    }
+    
+    .SignUpform{
+        margin-top: 15%;
+        margin-left: 20%;
+    }
+    .SignUpLabels{
+        color: rgb(8, 66, 66);
+        font-size: 1rem;
+    }
+    .signUpInput{
+        padding: 5px;
+        color: rgb(8, 66, 66);
+        width: 54%;
+        border: 1px solid purple;
+    }
+  
+    .SignUpButton{
+        background-color: beige;
+        width: 40%;
+        height: 10%;
+        margin-top:10% ;
+        margin-left: 15%;
+        padding: 1%;
+        border-radius: 10px;
+        font-size: 0.6rem;
+       }
+       .navLinks{
+        display: flex;
+        margin-top: 5%;
+        gap:2.5%;
+    }
+    
+.navs{
+    text-decoration: none;
+    color: rgb(5, 65, 65);
+    font-size: 0.5rem; 
+}
+.navLink{
+    display: flex;
+    gap:1%;
+    font-size: 0.05rem;
+    padding: 10px;
+}
+
+.classInput{
+ width:90%;
+margin-left: 3%;
+}
+
+#addButton{
+    padding:3px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    margin-left: 5%;
+    color:rgb(7, 49, 49);
+    margin-top: 5%;
+}
+.no-account{
+    display: flex;
+    flex-direction: column;
+}
+.account{
+    margin-right: 3%;
+    font-size: 0.8rem;
+}
+.LogInTitle{
+    margin-top: 9%;
+    margin-left: 25%;
+    color: rgb(8, 66, 66);
+    font-size: 1rem;
+   }
+}

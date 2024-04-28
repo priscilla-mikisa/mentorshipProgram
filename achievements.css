@@ -1,0 +1,122 @@
+.achievementsPage{
+    background-size: 70%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:60px;
+    background-color:rgba(243, 201, 201, 0.5) ;
+    border: 3px solid purple;
+    border-radius: 20px;
+    overflow-x: hidden;
+}
+.homePage1{
+    display: flex;
+    gap:15%;
+    margin-right: 2px;
+    border-bottom: 3px solid purple;
+    border-radius: 10px;
+}
+.logo{
+    width: 5%;
+    height: 5%;
+    margin-left: 15%;
+    margin-bottom: 2em;
+
+}
+.navs{
+    text-decoration: none;
+    color: rgb(5, 65, 65);
+    font-size: 1rem; 
+}
+.navLink{
+    display: flex;
+    gap:45%;
+    padding: 20px;
+}
+.classAchievements{
+    margin-top: 10%;
+}
+.achievementButtons{
+    padding: 10px;
+    width:20%;
+    margin-top: 5%;
+    border-radius: 20px;
+    border: 1px solid purple;
+}
+.achievementButton{
+    padding: 10px;
+    width:20%;
+    margin-top: 5%;
+    border-radius: 20px;
+    border: 1px solid purple;
+}
+.classInput{
+    border-radius: 20px;
+    border: 1px solid purple;
+    padding: 20px;
+   }
+.achievements{
+    margin-left: 20%;
+}
+@media screen and (min-width:280px) and (max-width:1000px){
+    .navLink{
+        display: flex;
+        flex-direction: column;
+        gap:5%;
+        padding: 2px;
+    } 
+    .logo{
+        width: 55%;
+        height: 25%;
+        margin-left: 15%;
+        margin-bottom: 2em;
+    
+    } 
+    .classInput{
+        border-radius: 20px;
+        border: 1px solid purple;
+        padding: 1px;
+        margin-right: 2%;
+       }
+       .homePage1{
+        display: flex;
+        flex-direction: column;
+        gap:5%;
+        margin-right: 2px;
+        border-bottom: 3px solid purple;
+        border-radius: 10px;
+    }
+    .assignmentSubmission{
+        width: 20%;
+    }
+    .achievements{
+        margin-left: 1%;
+    }
+    .classAchievements{
+        margin-top: 1%;
+    }
+    .achievementButtons{
+        padding: 2px;
+        width:100%;
+        margin-top: 5%;
+        border-radius: 20px;
+        border: 1px solid purple;
+    }
+    .achievementButton{
+        padding: 3px;
+        width:500%;
+        margin-top: 5%;
+        border-radius: 20px;
+        border: 1px solid purple;
+    }
+    .achievementsPage{
+        background-size: 70%;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding:0;
+        background-color:rgba(243, 201, 201, 0.5) ;
+        border: 3px solid purple;
+        border-radius: 20px;
+    }
+}

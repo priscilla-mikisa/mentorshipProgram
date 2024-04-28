@@ -1,0 +1,142 @@
+#ToDo{
+    list-style: none;
+    background-color: rgb(250, 224, 233);
+    margin-left: 20%;
+}
+#addTask{
+    margin-left: 20%;
+    padding: 10px;
+    width:30%;
+    border-radius:10px;
+    border:1px solid purple;
+    color:rgb(10, 94, 94);
+}
+.toDoTitle{
+    margin-left: 47%;
+    color:rgb(10, 94, 94);
+    margin-bottom: 10%;
+}
+#addButton{
+    padding:7px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    margin-left: 10%;
+    color:rgb(7, 49, 49);
+}
+.toDo{
+    background-color:transparent;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+button{
+    padding:7px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    margin-left: 38.9%;
+    color:rgb(7, 49, 49);
+}
+.Todologos{
+    width: 3%;
+    height: 3%;
+    padding-top: 1%;
+    margin-left: 18%;
+    margin-right: 5%;
+}
+.todoPage{
+    display: flex;
+    gap:5%;
+    margin-left: 1%; 
+}
+.nav{
+    text-decoration: none;
+    color: rgb(5, 65, 65);
+}
+.navLinks{
+    display: flex;
+    margin-top: 1%;
+    gap:20%;
+}
+.ToDoPage{
+    background-color: rgb(250, 224, 233);
+    border: 2px solid purple;
+    padding-bottom: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-color:rgba(243, 201, 201, 0.5) ;
+    margin:0 0 0 0;
+
+}
+.homePage{
+    display: flex;
+    gap:5%;
+    border-bottom: 3px solid purple;
+    border-radius: 20px;
+}
+@media screen and (min-width:280px) and (max-width:1000px){
+    #ToDo{
+        list-style: none;
+        background-color: rgb(250, 224, 233);
+        margin-left: 5%;
+    } 
+    #addTask{
+        margin-left: 10%;
+        padding: 10px;
+        width:15%;
+        border-radius:10px;
+        border:1px solid purple;
+        color:rgb(10, 94, 94);
+    }
+    .toDoTitle{
+        margin-left: 27%;
+        color:rgb(10, 94, 94);
+        margin-bottom: 10%;
+        font-size: 1rem;
+    }
+    #addButton{
+        padding:7px;
+        border: 1px solid purple;
+        border-radius: 5px;
+        margin-left: 10%;
+        color:rgb(7, 49, 49);
+    }
+    .nav{
+        text-decoration: none;
+        color: rgb(5, 65, 65);
+        font-size: 1rem;
+    }
+    .navLinks{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1%;
+        margin-left: 4%;
+        gap:0;
+    }
+    .Todologos{
+        width: 5%;
+        height: 5%;
+        display: none;
+        padding-top: 5%;
+        margin-left: 6%;
+        margin-right: 5%;
+    }
+    .ToDoPage{
+        background-color: rgb(250, 224, 233);
+        border: 2px solid purple;
+        padding-bottom: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        background-color:rgba(243, 201, 201, 0.5) ;
+        background-size: 30%;
+        margin:0 0 0 0;
+        background-image: linear-gradient(rgba(244, 229, 229, 0.5),rgba(244, 229, 229, 0.5) ), url("images/Screenshot_from_2024-04-24_22-10-46-removebg-preview.png");
+    
+    }
+    .homePage{
+        display: flex;
+        gap:5%;
+        border-bottom: 3px solid purple;
+        border-radius: 20px;
+    }
+}

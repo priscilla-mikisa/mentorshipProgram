@@ -6,15 +6,12 @@
     margin-left:15%;
 }
 .form{
-    background-image: linear-gradient(rgba(244, 229, 229, 0.5),rgba(244, 229, 229, 0.5) ), url("images/Screenshot_from_2024-04-24_22-10-46-removebg-preview.png");
     border: 3px solid purple;
     border-radius: 20px;
     background-size: 50%;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: 20%;
-    margin-top: 8%;
     background-color:rgba(243, 201, 201, 0.5) ;
 }
 .form1{
@@ -37,37 +34,47 @@
 .logo{
     width: 20%;
     height: 5%;
-    padding-top: 3%;
-    margin-left: 2%;
+    margin-top: 3%;
+    margin-left: 5%;
+
 }
-.Todologos{
-    width: 10%;
-    height: 5%;
-    padding-top: 6%;
-    margin-left: 28%;
-}
-.todoPage{
-    display: flex;
-    gap:5%;
-    margin-left: 1%; 
-}
+
 .logos{
-    width: 20%;
+    width: 5%;
     height: 5%;
-    padding-top: 10%;
+    margin-top: 2%;
     margin-left: 2%;
 }
 .SignUpButton{
  background-color: beige;
  width: 20%;
  height: 20%;
- margin-top:15% ;
+ margin-top:5% ;
  padding: 2%;
+ margin-left: 30%;
  border-radius: 20px;
  text-decoration: none;
 }
+.logInButton{
+    background-color: beige;
+    width: 20%;
+    height: 20%;
+    margin-top:1% ;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+   }
+.haveAccount{
+    display: flex;
+    gap: 13em;
+}
+.account{
+    margin-top: 1em;
+}
+
 .SignUpform{
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 20%;
 }
 .SignUpLabels{
@@ -79,18 +86,18 @@
     color: rgb(8, 66, 66);
     width: 74%;
     border: 2px solid purple;
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 .homePage{
-
     display: flex;
     gap:5%;
-    margin-left: 1%;
+    border-bottom: 3px solid purple;
+    border-radius: 20px;
 }
 .homePage1{
     display: flex;
     gap:5%;
-    margin-left: 1%;
+    margin-right: 2px;
 }
 .programeName{
 margin-left: 40%;
@@ -101,127 +108,50 @@ margin-left: 40%;
 }
 .navLinks{
     display: flex;
-    margin-top: 10%;
-    gap:5%;
+    gap:25%;
 }
-.Title{
-    color:rgb(3, 55, 55);
-    margin-left: 2%;
-}
-.company{
-    color:rgb(3, 55, 55);
-    margin-left: 6%;
-}
-.about{
-    color:rgb(3, 55, 55);
-    margin-right: 25%;
-}
-.mentorsProfile{
-    color:rgb(3, 55, 55);
-    margin-left: 40%;
-    margin-top: 10%;
-}
-.MentorsProfile{
- display: flex;
- gap:10%;
-}
-.description{
-    display: flex;
-    gap:5%;
-    margin-top: 4%;
-}
-.landingPage{
-    background-color: rgb(242, 207, 207);
-    border: 3px solid purple;
-    border-radius: 20px;
-    opacity: 100;
-}
-.quote{
-    margin-left: 15%;
-}
-.writer{
-    margin-left: 40%;
-}
-.footer{
-    margin-top: 5%;
-}
+
+
 .activities{
     display:flex;
     margin-left: 5%;
     gap:5%;
 }
-.checks{
-    margin-top: 2%;
-}
+
 .navs{
     text-decoration: none;
     color: rgb(5, 65, 65);
     font-size: 1rem; 
 }
-.achievementButtons{
-    padding: 10px;
-    width:20%;
-    border-radius: 20px;
-    border: 1px solid purple;
+.SignUpTitle{
+    color: rgb(5, 65, 65);
+    margin-top: 10%;
+    margin-left: 20%;
 }
-.classInput{
-    border-radius: 20px;
-    border: 1px solid purple;
-   }
+
 .navLink{
     display: flex;
     gap:5%;
     padding: 20px;
 }
-.achievementsPage{
-    background-size: 70%;
+
+#Summary{
+    border:1px solid purple;
+    margin:0 25% 0 25%;
+    padding: 5%;
     position: relative;
+    font-size: 1.5rem;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 20%;
-    margin-left: 30%;
-    padding:50px;
-    background-color:rgba(243, 201, 201, 0.5) ;
-    background-image: linear-gradient(rgba(244, 229, 229, 0.5),rgba(244, 229, 229, 0.5) ), url("images/Screenshot_from_2024-04-24_22-10-46-removebg-preview.png");
-    border: 3px solid purple;
-    border-radius: 20px;
-    overflow-x: hidden;
+    background-color: rgb(250, 224, 233) ;
 }
-#ToDo{
-    list-style: none;
-    background-color: rgb(250, 224, 233);
-    margin-left: 20%;
+.footer{
+ display: flex;
+ gap: 45%;
+ margin-top: 2%;
+ margin-bottom: 2%;
 }
-#addTask{
-    margin-left: 20%;
-    padding: 10px;
-    width:30%;
-    border-radius:10px;
-    border:1px solid purple;
-    color:rgb(10, 94, 94);
-}
-.toDoTitle{
-    margin-left: 40%;
-}
-#addButton{
-    padding:7px;
-    border: 1px solid purple;
-    border-radius: 5px;
-    margin-left: 10%;
-    color:rgb(7, 49, 49);
-}
-.toDo{
-    background-color: rgb(250, 224, 233);
-    margin-left: 20%;
-    margin-right: 20%;
-}
-.button{
-    padding:7px;
-    border: 1px solid purple;
-    border-radius: 5px;
-    margin-left: 37.7%;
-    color:rgb(7, 49, 49);
-}
+
 @media screen and (min-width:280px) and (max-width:1000px){
     .heroContainer{
         width:75%;
@@ -231,12 +161,8 @@ margin-left: 40%;
         padding-left: 0;
     }  
     .form{
-        background-image: linear-gradient(rgba(243, 201, 201, 0.5), rgba(240, 227, 227, 0.622)), url("images/Screenshot_from_2024-04-24_22-10-46-removebg-preview.png");
         border-radius: 20px;
-        background-size: cover;
-        position: relative;
-        background-position: center;
-        background-repeat: no-repeat;
+        
         margin: 0; 
         margin-right: 0;
 
@@ -272,80 +198,42 @@ margin-left: 40%;
         width: 54%;
         border: 1px solid purple;
     }
-    .homePage{
-        display: flex;
-        gap:1%;
-        font-size: 0.30rem;
-        margin-left: 0;
-    }
-    .homePage1{
-        display: flex;
-        gap:5%;
-        margin-left: 1%;
-        font-size: 0.25%;
-    }
-    .programeName{
-    margin-left: 30%;
-    font-size: 0.5rem;
-    }
+  
     .SignUpButton{
         background-color: beige;
-        width: 20%;
+        width: 30%;
         height: 10%;
         margin-top:15% ;
-        padding: 1%;
+        margin-left: 25%;
+        padding: 5%;
         border-radius: 10px;
         font-size: 0.5rem;
        }
+       .logInButton{
+        background-color: beige;
+        width: 30%;
+        height: 20%;
+        margin-top:3% ;
+        padding: 10px;
+        border-radius: 20px;
+        margin-right: 35%;
+        font-size: 0.5rem;
+        text-decoration: none;
+       }
        .navLinks{
         display: flex;
+        flex-direction: column;
         margin-top: 5%;
         gap:2.5%;
     }
-    Title{
-        color:rgb(3, 55, 55);
-        margin-left: 1%;
-    }
-    .company{
-        color:rgb(3, 55, 55);
-        margin-left: 6%;
-    }
-    .about{
-        color:rgb(3, 55, 55);
-        margin-right: 25%;
-}
-.mentorsProfile{
-    color:rgb(3, 55, 55);
-    margin-left: 30%;
-    font-size: 1rem;
-    margin-top: 5%;
-}
-.MentorsProfile{
-    display: flex;
-    flex-direction: column;
-    font-size: 0.5rem ;
-    margin-left: 6%;
-   }
-.profilePicture{
-    margin-left: 10%;
-}
-.quote{
-    margin-left: 7%;
-    font-size: 0.5rem;
-}
-.writer{
-    margin-left: 40%;
-    font-size: 0.5rem;
-}
+    
 .activities{
     display:flex;
     margin-left: 5%;
     gap:5%;
     font-size: 0.5rem;
 }
-.checks{
-    margin-top: 3%;
-}
+
 .navs{
     text-decoration: none;
     color: rgb(5, 65, 65);
@@ -358,10 +246,7 @@ margin-left: 40%;
     padding: 10px;
 }
 .achievementsPage{
-    background-image: linear-gradient(rgba(243, 201, 201, 0.5), rgba(240, 227, 227, 0.622)), url("images/Screenshot_from_2024-04-24_22-10-46-removebg-preview.png");
-    background-size: cover;
-    position: relative;
-    background-position: center;
+        background-position: center;
     background-repeat: no-repeat;
     margin-top: 0;
     margin-left: 0;
@@ -377,37 +262,7 @@ margin-left: 3%;
 .achievementButtons{
     margin-left: 3%;
 }
-.Todologos{
-    width: 15%;
-    height: 3%;
-    padding-top: 3%;
-    margin-left: 14%;
-}
-.todoPage{
-    display: flex;
-    flex-direction: column;
-    gap:15%;
-    margin-left: 1%;
-    font-size: 0.35rem; 
-}
-#ToDo{
-    list-style: none;
-    background-color: rgb(250, 224, 233);
-    margin-left: 10%;
-}
-#addTask{
-    margin-left: 5%;
-    padding: 3px;
-    width: 100px;
-    height: auto;
-    border-radius:10px;
-    border:1px solid purple;
-    color:rgb(10, 94, 94);
-}
-.toDoTitle{
-    margin-left: 20%;
-    font-size: 1rem;
-}
+
 #addButton{
     padding:3px;
     border: 1px solid purple;
@@ -416,16 +271,30 @@ margin-left: 3%;
     color:rgb(7, 49, 49);
     margin-top: 5%;
 }
-.toDo{
-    background-color: rgb(250, 224, 233);
+.haveAccount{
+    display: flex;
+    gap:1%;
+    flex-direction: column;
+}
+#Summary{
+    border:1px solid purple;
+    margin:0 0 0 0;
+    padding: 5%;
+    position: relative;
+    font-size: 0.7rem;
+    background-color: rgb(250, 224, 233) ;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 2%;
+   }
+   .SignUpTitle{
+    color: rgb(5, 65, 65);
+    margin-top: 10%;
     margin-left: 20%;
-    margin-right: 20%;
+    font-size: 1rem;
 }
-button{
-    padding:7px;
-    border: 1px solid purple;
-    border-radius: 5px;
-    margin-left: 37.7%;
-    color:rgb(7, 49, 49);
-}
+
 }
