@@ -105,6 +105,11 @@ button{
         color: rgb(5, 65, 65);
         font-size: 1rem;
     }
+    .NYJnav{
+        text-decoration: none;
+        color: rgb(5, 65, 65);
+        font-size: 1rem;
+    }
     .navLinks{
         display: flex;
         flex-direction: column;
