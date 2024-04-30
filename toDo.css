@@ -2,6 +2,8 @@
     list-style: none;
     background-color: rgb(250, 224, 233);
     margin-left: 20%;
+    display: flex;
+    gap:5%;
 }
 #addTask{
     margin-left: 20%;
@@ -109,6 +111,9 @@ button{
         text-decoration: none;
         color: rgb(5, 65, 65);
         font-size: 1rem;
+    }
+    .check{
+        padding-top: 50%;
     }
     .navLinks{
         display: flex;
